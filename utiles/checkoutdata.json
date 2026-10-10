@@ -1,0 +1,31 @@
+[{
+    "Firstname": "John",
+    "Lastname": "Doe",
+    "zip": "12345",
+    "status":"success"
+},
+{
+    "Firstname": " ",
+    "Lastname": " ",
+    "zip": " ",
+    "status":"empty_credentials"
+},
+{
+    "Firstname": " ",
+    "Lastname": "Smith",
+    "zip": "67890",
+    "status":"firstname_required"
+},
+{
+    "Firstname": "Alice",
+    "Lastname": " ",
+    "zip": "54321",
+    "status":"lastname_required"
+},
+{
+    "Firstname": "Bob",
+    "Lastname": "Williams",
+    "zip": "abcd ",
+    "status":"invalid_zip"
+}
+]
